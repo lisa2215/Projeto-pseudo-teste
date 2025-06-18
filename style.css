@@ -3,7 +3,7 @@ button:hover {
     background-color: darkolivegreen;
 }
 input:focus {
-    border: 2px solid gray;
+    border: 2px solid rgb(255, 255, 255);
 }
 a:active {
     color: dimgray;
@@ -21,7 +21,7 @@ ul li:last-child {
     font-style: italic;
 }
 ul li:nth-child(2) {
-    color: rgb(50, 63, 57);
+    color: rgb(255, 255, 255);
 }
 
 body {
@@ -33,7 +33,16 @@ body {
     width: 200px;
     bottom: 20%;
     left: -200px;
-    animation: fly 8s linear infinite;
+    animation: fly 10s linear infinite;
+}
+.snoopy-love {
+    
+        position: absolute;
+        width: 60px;
+        bottom: 10%;
+        left: 200px;
+        
+    
 }
 
 @keyframes fly {
@@ -46,22 +55,20 @@ input:checked + label {
     color: rgb(182, 116, 232);
 }
 input:disabled {
-    background-color: plum;
+    background-color: rgb(255, 255, 255);
 }
 input:required {
-    border: 2px solid rgb(36, 64, 55);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 p:not(.destaque) {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 div:empty {
-    border: 1px dashed black;
+    border: 1px dashed rgb(255, 255, 255);
     height: 20px;
 }
-li {
-    background-color: #f0f0f0;
-}
+
 
 p1{
     background-color: #f0f0f0;
